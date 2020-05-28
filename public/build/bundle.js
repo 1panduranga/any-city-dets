@@ -455,11 +455,11 @@ var app = (function () {
     			div = element("div");
     			h3 = element("h3");
     			if (default_slot) default_slot.c();
-    			attr_dev(h3, "class", "svelte-1vzduuy");
+    			attr_dev(h3, "class", "svelte-pbsdyt");
     			add_location(h3, file, 2, 1, 18);
-    			attr_dev(div, "class", "svelte-1vzduuy");
+    			attr_dev(div, "class", "svelte-pbsdyt");
     			add_location(div, file, 1, 0, 10);
-    			attr_dev(header, "class", "svelte-1vzduuy");
+    			attr_dev(header, "class", "svelte-pbsdyt");
     			add_location(header, file, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -557,7 +557,7 @@ var app = (function () {
     			if (img.src !== (img_src_value = /*source*/ ctx[0])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "city view details ");
     			attr_dev(img, "draggable", "false");
-    			attr_dev(img, "class", "svelte-nklxyx");
+    			attr_dev(img, "class", "svelte-5vmntr");
     			add_location(img, file$1, 7, 0, 105);
     			add_location(div, file$1, 6, 0, 98);
     		},
@@ -598,7 +598,7 @@ var app = (function () {
     			h6 = element("h6");
     			t = text(/*copyright*/ ctx[1]);
     			add_location(h6, file$1, 12, 0, 230);
-    			attr_dev(div, "class", "copyright svelte-nklxyx");
+    			attr_dev(div, "class", "copyright svelte-5vmntr");
     			add_location(div, file$1, 11, 0, 205);
     		},
     		m: function mount(target, anchor) {
@@ -637,7 +637,7 @@ var app = (function () {
     			if (if_block0) if_block0.c();
     			t = space();
     			if (if_block1) if_block1.c();
-    			attr_dev(footer, "class", "svelte-nklxyx");
+    			attr_dev(footer, "class", "svelte-5vmntr");
     			add_location(footer, file$1, 4, 0, 70);
     		},
     		l: function claim(nodes) {
@@ -1242,6 +1242,7 @@ var app = (function () {
     	let t2;
     	let t3;
     	let h5;
+    	let span;
     	let t4;
     	let t5;
 
@@ -1266,21 +1267,24 @@ var app = (function () {
     			t2 = text(/*WeatherText*/ ctx[0]);
     			t3 = space();
     			h5 = element("h5");
+    			span = element("span");
     			t4 = text(/*Temperature*/ ctx[1]);
     			t5 = text(" °C");
-    			attr_dev(div0, "class", "pic svelte-iqkgm8");
-    			add_location(div0, file$5, 29, 4, 737);
+    			attr_dev(div0, "class", "pic svelte-t82in2");
+    			add_location(div0, file$5, 29, 4, 747);
     			if (img.src !== (img_src_value = /*WeatherIcon*/ ctx[2])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "weather icon");
-    			attr_dev(img, "class", "svelte-iqkgm8");
-    			add_location(img, file$5, 38, 4, 976);
-    			attr_dev(div1, "class", "icon svelte-iqkgm8");
-    			add_location(div1, file$5, 37, 4, 952);
+    			attr_dev(img, "class", "svelte-t82in2");
+    			add_location(img, file$5, 38, 4, 986);
+    			attr_dev(div1, "class", "icon svelte-t82in2");
+    			add_location(div1, file$5, 37, 4, 962);
     			attr_dev(h6, "class", "center");
-    			add_location(h6, file$5, 41, 4, 1063);
-    			add_location(h5, file$5, 44, 4, 1118);
-    			attr_dev(div2, "class", "details svelte-iqkgm8");
-    			add_location(div2, file$5, 40, 4, 1036);
+    			add_location(h6, file$5, 41, 4, 1073);
+    			add_location(span, file$5, 45, 4, 1151);
+    			attr_dev(h5, "class", "temp svelte-t82in2");
+    			add_location(h5, file$5, 44, 4, 1128);
+    			attr_dev(div2, "class", "details svelte-t82in2");
+    			add_location(div2, file$5, 40, 4, 1046);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div0, anchor);
@@ -1294,7 +1298,8 @@ var app = (function () {
     			append_dev(h6, t2);
     			append_dev(div2, t3);
     			append_dev(div2, h5);
-    			append_dev(h5, t4);
+    			append_dev(h5, span);
+    			append_dev(span, t4);
     			append_dev(h5, t5);
     		},
     		p: function update(ctx, dirty) {
@@ -1348,8 +1353,8 @@ var app = (function () {
     			img = element("img");
     			if (img.src !== (img_src_value = "./img/night.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "night or evening time sky");
-    			attr_dev(img, "class", "svelte-iqkgm8");
-    			add_location(img, file$5, 33, 4, 862);
+    			attr_dev(img, "class", "svelte-t82in2");
+    			add_location(img, file$5, 33, 4, 872);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -1380,8 +1385,8 @@ var app = (function () {
     			img = element("img");
     			if (img.src !== (img_src_value = "./img/day.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "day, morning or afternoon time");
-    			attr_dev(img, "class", "svelte-iqkgm8");
-    			add_location(img, file$5, 31, 4, 781);
+    			attr_dev(img, "class", "svelte-t82in2");
+    			add_location(img, file$5, 31, 4, 791);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -1422,8 +1427,8 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			if_block.c();
-    			attr_dev(div, "class", "wrapper svelte-iqkgm8");
-    			add_location(div, file$5, 26, 0, 685);
+    			attr_dev(div, "class", "wrapper svelte-t82in2");
+    			add_location(div, file$5, 26, 0, 695);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1505,7 +1510,7 @@ var app = (function () {
     		$$invalidate(2, WeatherIcon = `./img/icons/${data.WeatherIcon}.svg`);
     		$$invalidate(3, day = data.IsDayTime);
     	}).catch(err => {
-    		console.log(err);
+    		console.log("weather", err);
     	});
 
     	const writable_props = ["accu_key", "search_code"];
@@ -1591,6 +1596,8 @@ var app = (function () {
     }
 
     /* src\components\Time.svelte generated by Svelte v3.22.2 */
+
+    const { console: console_1$1 } = globals;
     const file$6 = "src\\components\\Time.svelte";
 
     // (54:0) {:else}
@@ -1659,8 +1666,8 @@ var app = (function () {
     			t5 = space();
     			h6 = element("h6");
     			t6 = text(/*date*/ ctx[0]);
-    			add_location(h4, file$6, 47, 0, 1035);
-    			add_location(h6, file$6, 50, 0, 1061);
+    			add_location(h4, file$6, 47, 0, 1071);
+    			add_location(h6, file$6, 50, 0, 1097);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h4, anchor);
@@ -1720,7 +1727,7 @@ var app = (function () {
     			div = element("div");
     			if_block.c();
     			attr_dev(div, "class", "time svelte-dpc3jo");
-    			add_location(div, file$6, 44, 0, 993);
+    			add_location(div, file$6, 44, 0, 1029);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1798,12 +1805,12 @@ var app = (function () {
     	get_time(timezone).then(data => {
     		$$invalidate(0, date = data.slice(data.search("datetime") + 10, data.search("datetime") + 20));
     		$$invalidate(5, time = data.slice(data.search("datetime") + 21, data.search("datetime") + 29));
-    	});
+    	}).catch(err => console.log("time", err));
 
     	const writable_props = ["timezone"];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<Time> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$1.warn(`<Time> was created with unknown prop '${key}'`);
     	});
 
     	let { $$slots = {}, $$scope } = $$props;
@@ -2403,7 +2410,7 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = space();
     			attr_dev(div, "class", "language svelte-1pxlqmy");
-    			add_location(div, file$9, 39, 0, 1114);
+    			add_location(div, file$9, 39, 0, 1117);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -2502,7 +2509,7 @@ var app = (function () {
     }
 
     function instance$9($$self, $$props, $$invalidate) {
-    	let { worlddata } = $$props;
+    	let { worlddata = "" } = $$props;
     	let { locationdata = "" } = $$props;
     	const writable_props = ["worlddata", "locationdata"];
 
@@ -2582,13 +2589,6 @@ var app = (function () {
     			options,
     			id: create_fragment$9.name
     		});
-
-    		const { ctx } = this.$$;
-    		const props = options.props || {};
-
-    		if (/*worlddata*/ ctx[1] === undefined && !("worlddata" in props)) {
-    			console.warn("<Language> was created without expected prop 'worlddata'");
-    		}
     	}
 
     	get worlddata() {
@@ -2608,13 +2608,152 @@ var app = (function () {
     	}
     }
 
+    /* src\components\Pollution.svelte generated by Svelte v3.22.2 */
+    const file$a = "src\\components\\Pollution.svelte";
+
+    function create_fragment$a(ctx) {
+    	let div;
+    	let p0;
+    	let span0;
+    	let t1;
+    	let t2_value = /*data*/ ctx[0]["aqius"] + "";
+    	let t2;
+    	let t3;
+    	let p1;
+    	let span1;
+    	let t5;
+    	let t6_value = /*data*/ ctx[0]["aqicn"] + "";
+    	let t6;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			p0 = element("p");
+    			span0 = element("span");
+    			span0.textContent = "AQI(US)";
+    			t1 = text(" : ");
+    			t2 = text(t2_value);
+    			t3 = space();
+    			p1 = element("p");
+    			span1 = element("span");
+    			span1.textContent = "AQI(Cn)";
+    			t5 = text(" : ");
+    			t6 = text(t6_value);
+    			attr_dev(span0, "class", "b");
+    			add_location(span0, file$a, 9, 0, 181);
+    			add_location(p0, file$a, 8, 0, 176);
+    			attr_dev(span1, "class", "b");
+    			add_location(span1, file$a, 12, 0, 243);
+    			add_location(p1, file$a, 11, 0, 238);
+    			attr_dev(div, "class", "wrapper center center-align svelte-140pdqc");
+    			add_location(div, file$a, 7, 0, 133);
+    		},
+    		l: function claim(nodes) {
+    			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, p0);
+    			append_dev(p0, span0);
+    			append_dev(p0, t1);
+    			append_dev(p0, t2);
+    			append_dev(div, t3);
+    			append_dev(div, p1);
+    			append_dev(p1, span1);
+    			append_dev(p1, t5);
+    			append_dev(p1, t6);
+    		},
+    		p: noop,
+    		i: noop,
+    		o: noop,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_fragment$a.name,
+    		type: "component",
+    		source: "",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    function instance$a($$self, $$props, $$invalidate) {
+    	let { pollu_dets } = $$props;
+    	let data = pollu_dets["current"]["pollution"];
+    	const writable_props = ["pollu_dets"];
+
+    	Object.keys($$props).forEach(key => {
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<Pollution> was created with unknown prop '${key}'`);
+    	});
+
+    	let { $$slots = {}, $$scope } = $$props;
+    	validate_slots("Pollution", $$slots, []);
+
+    	$$self.$set = $$props => {
+    		if ("pollu_dets" in $$props) $$invalidate(1, pollu_dets = $$props.pollu_dets);
+    	};
+
+    	$$self.$capture_state = () => ({ Loader, pollu_dets, data });
+
+    	$$self.$inject_state = $$props => {
+    		if ("pollu_dets" in $$props) $$invalidate(1, pollu_dets = $$props.pollu_dets);
+    		if ("data" in $$props) $$invalidate(0, data = $$props.data);
+    	};
+
+    	if ($$props && "$$inject" in $$props) {
+    		$$self.$inject_state($$props.$$inject);
+    	}
+
+    	return [data, pollu_dets];
+    }
+
+    class Pollution extends SvelteComponentDev {
+    	constructor(options) {
+    		super(options);
+    		init(this, options, instance$a, create_fragment$a, safe_not_equal, { pollu_dets: 1 });
+
+    		dispatch_dev("SvelteRegisterComponent", {
+    			component: this,
+    			tagName: "Pollution",
+    			options,
+    			id: create_fragment$a.name
+    		});
+
+    		const { ctx } = this.$$;
+    		const props = options.props || {};
+
+    		if (/*pollu_dets*/ ctx[1] === undefined && !("pollu_dets" in props)) {
+    			console.warn("<Pollution> was created without expected prop 'pollu_dets'");
+    		}
+    	}
+
+    	get pollu_dets() {
+    		throw new Error("<Pollution>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set pollu_dets(value) {
+    		throw new Error("<Pollution>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+    }
+
     /* src\App.svelte generated by Svelte v3.22.2 */
 
-    const { console: console_1$1 } = globals;
-    const file$a = "src\\App.svelte";
+    const { console: console_1$2 } = globals;
+    const file$b = "src\\App.svelte";
 
-    // (90:0) <Header>
-    function create_default_slot_5(ctx) {
+    function get_each_context$1(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[19] = list[i];
+    	return child_ctx;
+    }
+
+    // (122:0) <Header>
+    function create_default_slot_7(ctx) {
     	let t;
 
     	const block = {
@@ -2631,147 +2770,139 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_5.name,
+    		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(90:0) <Header>",
+    		source: "(122:0) <Header>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (99:1) {#if search!=''}
+    // (214:1) {:else}
+    function create_else_block_5(ctx) {
+    	let div1;
+    	let h6;
+    	let t1;
+    	let div0;
+    	let current;
+    	let each_value = /*cities*/ ctx[10];
+    	validate_each_argument(each_value);
+    	let each_blocks = [];
+
+    	for (let i = 0; i < each_value.length; i += 1) {
+    		each_blocks[i] = create_each_block$1(get_each_context$1(ctx, each_value, i));
+    	}
+
+    	const out = i => transition_out(each_blocks[i], 1, 1, () => {
+    		each_blocks[i] = null;
+    	});
+
+    	const block = {
+    		c: function create() {
+    			div1 = element("div");
+    			h6 = element("h6");
+    			h6.textContent = "popular cities";
+    			t1 = space();
+    			div0 = element("div");
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].c();
+    			}
+
+    			attr_dev(h6, "class", "heading svelte-1hc8soy");
+    			add_location(h6, file$b, 215, 3, 4884);
+    			attr_dev(div0, "class", "row svelte-1hc8soy");
+    			add_location(div0, file$b, 218, 3, 4935);
+    			add_location(div1, file$b, 214, 2, 4875);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div1, anchor);
+    			append_dev(div1, h6);
+    			append_dev(div1, t1);
+    			append_dev(div1, div0);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].m(div0, null);
+    			}
+
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty & /*gotSearch, cities*/ 3072) {
+    				each_value = /*cities*/ ctx[10];
+    				validate_each_argument(each_value);
+    				let i;
+
+    				for (i = 0; i < each_value.length; i += 1) {
+    					const child_ctx = get_each_context$1(ctx, each_value, i);
+
+    					if (each_blocks[i]) {
+    						each_blocks[i].p(child_ctx, dirty);
+    						transition_in(each_blocks[i], 1);
+    					} else {
+    						each_blocks[i] = create_each_block$1(child_ctx);
+    						each_blocks[i].c();
+    						transition_in(each_blocks[i], 1);
+    						each_blocks[i].m(div0, null);
+    					}
+    				}
+
+    				group_outros();
+
+    				for (i = each_value.length; i < each_blocks.length; i += 1) {
+    					out(i);
+    				}
+
+    				check_outros();
+    			}
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+
+    			for (let i = 0; i < each_value.length; i += 1) {
+    				transition_in(each_blocks[i]);
+    			}
+
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			each_blocks = each_blocks.filter(Boolean);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				transition_out(each_blocks[i]);
+    			}
+
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div1);
+    			destroy_each(each_blocks, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_5.name,
+    		type: "else",
+    		source: "(214:1) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (131:1) {#if search!=''}
     function create_if_block$5(ctx) {
     	let current_block_type_index;
     	let if_block;
     	let if_block_anchor;
     	let current;
-    	const if_block_creators = [create_if_block_1$2, create_else_block_1$1];
-    	const if_blocks = [];
-
-    	function select_block_type(ctx, dirty) {
-    		if (/*show*/ ctx[0] == true) return 0;
-    		return 1;
-    	}
-
-    	current_block_type_index = select_block_type(ctx);
-    	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-
-    	const block = {
-    		c: function create() {
-    			if_block.c();
-    			if_block_anchor = empty();
-    		},
-    		m: function mount(target, anchor) {
-    			if_blocks[current_block_type_index].m(target, anchor);
-    			insert_dev(target, if_block_anchor, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			let previous_block_index = current_block_type_index;
-    			current_block_type_index = select_block_type(ctx);
-
-    			if (current_block_type_index === previous_block_index) {
-    				if_blocks[current_block_type_index].p(ctx, dirty);
-    			} else {
-    				group_outros();
-
-    				transition_out(if_blocks[previous_block_index], 1, 1, () => {
-    					if_blocks[previous_block_index] = null;
-    				});
-
-    				check_outros();
-    				if_block = if_blocks[current_block_type_index];
-
-    				if (!if_block) {
-    					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-    					if_block.c();
-    				}
-
-    				transition_in(if_block, 1);
-    				if_block.m(if_block_anchor.parentNode, if_block_anchor);
-    			}
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(if_block);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(if_block);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			if_blocks[current_block_type_index].d(detaching);
-    			if (detaching) detach_dev(if_block_anchor);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block$5.name,
-    		type: "if",
-    		source: "(99:1) {#if search!=''}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (153:1) {:else}
-    function create_else_block_1$1(ctx) {
-    	let current;
-
-    	const loader = new Loader({
-    			props: { color: "brown" },
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(loader.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(loader, target, anchor);
-    			current = true;
-    		},
-    		p: noop,
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(loader.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(loader.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(loader, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_else_block_1$1.name,
-    		type: "else",
-    		source: "(153:1) {:else}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (100:1) {#if show==true}
-    function create_if_block_1$2(ctx) {
-    	let current_block_type_index;
-    	let if_block;
-    	let if_block_anchor;
-    	let current;
-    	const if_block_creators = [create_if_block_2, create_else_block$3];
+    	const if_block_creators = [create_if_block_1$2, create_else_block_4];
     	const if_blocks = [];
 
     	function select_block_type_1(ctx, dirty) {
-    		if (/*search_code*/ ctx[5] == "") return 0;
+    		if (/*show*/ ctx[0] == true) return 0;
     		return 1;
     	}
 
@@ -2830,16 +2961,238 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_1$2.name,
+    		id: create_if_block$5.name,
     		type: "if",
-    		source: "(100:1) {#if show==true}",
+    		source: "(131:1) {#if search!=''}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (106:2) {:else}
+    // (223:4) <Card>
+    function create_default_slot_5(ctx) {
+    	let t_value = /*citi*/ ctx[19] + "";
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text(t_value);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		p: noop,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_5.name,
+    		type: "slot",
+    		source: "(223:4) <Card>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (220:4) {#each cities as citi}
+    function create_each_block$1(ctx) {
+    	let div;
+    	let t;
+    	let current;
+    	let dispose;
+
+    	const card = new Card({
+    			props: {
+    				$$slots: { default: [create_default_slot_5] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	function click_handler(...args) {
+    		return /*click_handler*/ ctx[18](/*citi*/ ctx[19], ...args);
+    	}
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			create_component(card.$$.fragment);
+    			t = space();
+    			attr_dev(div, "class", "col l4 s6 popular svelte-1hc8soy");
+    			add_location(div, file$b, 221, 4, 4989);
+    		},
+    		m: function mount(target, anchor, remount) {
+    			insert_dev(target, div, anchor);
+    			mount_component(card, div, null);
+    			append_dev(div, t);
+    			current = true;
+    			if (remount) dispose();
+    			dispose = listen_dev(div, "click", click_handler, false, false, false);
+    		},
+    		p: function update(new_ctx, dirty) {
+    			ctx = new_ctx;
+    			const card_changes = {};
+
+    			if (dirty & /*$$scope*/ 4194304) {
+    				card_changes.$$scope = { dirty, ctx };
+    			}
+
+    			card.$set(card_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(card.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(card.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    			destroy_component(card);
+    			dispose();
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block$1.name,
+    		type: "each",
+    		source: "(220:4) {#each cities as citi}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (210:1) {:else}
+    function create_else_block_4(ctx) {
+    	let current;
+
+    	const loader = new Loader({
+    			props: { color: "brown" },
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(loader.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(loader, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(loader.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(loader.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(loader, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_4.name,
+    		type: "else",
+    		source: "(210:1) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (132:1) {#if show==true}
+    function create_if_block_1$2(ctx) {
+    	let current_block_type_index;
+    	let if_block;
+    	let if_block_anchor;
+    	let current;
+    	const if_block_creators = [create_if_block_2, create_else_block$3];
+    	const if_blocks = [];
+
+    	function select_block_type_2(ctx, dirty) {
+    		if (/*search_code*/ ctx[6] == "") return 0;
+    		return 1;
+    	}
+
+    	current_block_type_index = select_block_type_2(ctx);
+    	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_blocks[current_block_type_index].m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			let previous_block_index = current_block_type_index;
+    			current_block_type_index = select_block_type_2(ctx);
+
+    			if (current_block_type_index === previous_block_index) {
+    				if_blocks[current_block_type_index].p(ctx, dirty);
+    			} else {
+    				group_outros();
+
+    				transition_out(if_blocks[previous_block_index], 1, 1, () => {
+    					if_blocks[previous_block_index] = null;
+    				});
+
+    				check_outros();
+    				if_block = if_blocks[current_block_type_index];
+
+    				if (!if_block) {
+    					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+    					if_block.c();
+    				}
+
+    				transition_in(if_block, 1);
+    				if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    			}
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(if_block);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(if_block);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if_blocks[current_block_type_index].d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_1$2.name,
+    		type: "if",
+    		source: "(132:1) {#if show==true}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (138:2) {:else}
     function create_else_block$3(ctx) {
     	let h6;
     	let t0;
@@ -2855,17 +3208,24 @@ var app = (function () {
     	let t5;
     	let div4;
     	let t6;
-    	let t7;
+    	let div8;
     	let div6;
-    	let a;
+    	let t7;
+    	let div7;
     	let t8;
+    	let div10;
+    	let div9;
     	let t9;
+    	let div11;
+    	let a;
+    	let t10;
+    	let t11;
     	let current;
 
     	const card0 = new Card({
     			props: {
     				cardtitle: "Time and Date",
-    				$$slots: { default: [create_default_slot_3] },
+    				$$slots: { default: [create_default_slot_4] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -2874,7 +3234,7 @@ var app = (function () {
     	const card1 = new Card({
     			props: {
     				cardtitle: "Location",
-    				$$slots: { default: [create_default_slot_2] },
+    				$$slots: { default: [create_default_slot_3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -2882,19 +3242,44 @@ var app = (function () {
 
     	const weather = new Weather({
     			props: {
-    				accu_key: /*accu_key*/ ctx[8],
-    				search_code: /*search_code*/ ctx[5]
+    				accu_key: /*accu_key*/ ctx[9],
+    				search_code: /*search_code*/ ctx[6]
     			},
     			$$inline: true
     		});
 
-    	let if_block = /*worlddata*/ ctx[6] != "" && create_if_block_3(ctx);
+    	const card2 = new Card({
+    			props: {
+    				cardtitle: "pollution",
+    				$$slots: { default: [create_default_slot_2] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const card3 = new Card({
+    			props: {
+    				cardtitle: "Languages",
+    				$$slots: { default: [create_default_slot_1] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const card4 = new Card({
+    			props: {
+    				cardtitle: "Currency",
+    				$$slots: { default: [create_default_slot] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
 
     	const block = {
     		c: function create() {
     			h6 = element("h6");
     			t0 = text("Search results related to ");
-    			t1 = text(/*search*/ ctx[4]);
+    			t1 = text(/*search*/ ctx[5]);
     			t2 = text(".");
     			t3 = space();
     			div5 = element("div");
@@ -2909,33 +3294,52 @@ var app = (function () {
     			div4 = element("div");
     			create_component(weather.$$.fragment);
     			t6 = space();
-    			if (if_block) if_block.c();
-    			t7 = space();
+    			div8 = element("div");
     			div6 = element("div");
+    			create_component(card2.$$.fragment);
+    			t7 = space();
+    			div7 = element("div");
+    			create_component(card3.$$.fragment);
+    			t8 = space();
+    			div10 = element("div");
+    			div9 = element("div");
+    			create_component(card4.$$.fragment);
+    			t9 = space();
+    			div11 = element("div");
     			a = element("a");
-    			t8 = text("wikipedia of ");
-    			t9 = text(/*search*/ ctx[4]);
-    			attr_dev(h6, "class", "heading svelte-1184irg");
-    			add_location(h6, file$a, 106, 12, 2363);
+    			t10 = text("wikipedia of ");
+    			t11 = text(/*search*/ ctx[5]);
+    			attr_dev(h6, "class", "heading svelte-1hc8soy");
+    			add_location(h6, file$b, 138, 12, 3345);
     			attr_dev(div0, "class", "col l12 s12");
-    			add_location(div0, file$a, 113, 5, 2522);
+    			add_location(div0, file$b, 145, 6, 3506);
     			attr_dev(div1, "class", "col l12 s12");
-    			add_location(div1, file$a, 118, 5, 2644);
-    			attr_dev(div2, "class", "row");
-    			add_location(div2, file$a, 112, 4, 2499);
+    			add_location(div1, file$b, 150, 6, 3633);
+    			attr_dev(div2, "class", "row svelte-1hc8soy");
+    			add_location(div2, file$b, 144, 5, 3482);
     			attr_dev(div3, "class", "col l4 s12 offset-l1");
-    			add_location(div3, file$a, 111, 4, 2460);
+    			add_location(div3, file$b, 143, 4, 3442);
     			attr_dev(div4, "class", "col l5 s12 offset-l2");
-    			add_location(div4, file$a, 126, 4, 2802);
-    			attr_dev(div5, "class", "row");
-    			add_location(div5, file$a, 110, 3, 2438);
-    			attr_dev(a, "href", /*link*/ ctx[3]);
+    			add_location(div4, file$b, 158, 4, 3812);
+    			attr_dev(div5, "class", "row svelte-1hc8soy");
+    			add_location(div5, file$b, 142, 3, 3420);
+    			attr_dev(div6, "class", "col l4 s12 offset-l1");
+    			add_location(div6, file$b, 170, 4, 3974);
+    			attr_dev(div7, "class", "col l4 s12 offset-l2");
+    			add_location(div7, file$b, 180, 4, 4183);
+    			attr_dev(div8, "class", "row svelte-1hc8soy");
+    			add_location(div8, file$b, 169, 4, 3952);
+    			attr_dev(div9, "class", "col l4 s12 offset-l1");
+    			add_location(div9, file$b, 193, 4, 4452);
+    			attr_dev(div10, "class", "row svelte-1hc8soy");
+    			add_location(div10, file$b, 192, 4, 4430);
+    			attr_dev(a, "href", /*link*/ ctx[4]);
     			attr_dev(a, "target", "_blank");
     			set_style(a, "text-decoration", "none");
     			set_style(a, "heigth", "fit-content");
-    			add_location(a, file$a, 148, 3, 3266);
-    			attr_dev(div6, "class", "btn white wiki svelte-1184irg");
-    			add_location(div6, file$a, 147, 3, 3234);
+    			add_location(a, file$b, 205, 3, 4695);
+    			attr_dev(div11, "class", "btn white wiki svelte-1hc8soy");
+    			add_location(div11, file$b, 204, 3, 4663);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h6, anchor);
@@ -2955,61 +3359,67 @@ var app = (function () {
     			append_dev(div5, div4);
     			mount_component(weather, div4, null);
     			insert_dev(target, t6, anchor);
-    			if (if_block) if_block.m(target, anchor);
-    			insert_dev(target, t7, anchor);
-    			insert_dev(target, div6, anchor);
-    			append_dev(div6, a);
-    			append_dev(a, t8);
-    			append_dev(a, t9);
+    			insert_dev(target, div8, anchor);
+    			append_dev(div8, div6);
+    			mount_component(card2, div6, null);
+    			append_dev(div8, t7);
+    			append_dev(div8, div7);
+    			mount_component(card3, div7, null);
+    			insert_dev(target, t8, anchor);
+    			insert_dev(target, div10, anchor);
+    			append_dev(div10, div9);
+    			mount_component(card4, div9, null);
+    			insert_dev(target, t9, anchor);
+    			insert_dev(target, div11, anchor);
+    			append_dev(div11, a);
+    			append_dev(a, t10);
+    			append_dev(a, t11);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
-    			if (!current || dirty & /*search*/ 16) set_data_dev(t1, /*search*/ ctx[4]);
+    			if (!current || dirty & /*search*/ 32) set_data_dev(t1, /*search*/ ctx[5]);
     			const card0_changes = {};
 
-    			if (dirty & /*$$scope, timezone*/ 4100) {
+    			if (dirty & /*$$scope, timezone*/ 4194308) {
     				card0_changes.$$scope = { dirty, ctx };
     			}
 
     			card0.$set(card0_changes);
     			const card1_changes = {};
 
-    			if (dirty & /*$$scope, locationdata, flag*/ 4226) {
+    			if (dirty & /*$$scope, locationdata, flag*/ 4194562) {
     				card1_changes.$$scope = { dirty, ctx };
     			}
 
     			card1.$set(card1_changes);
     			const weather_changes = {};
-    			if (dirty & /*search_code*/ 32) weather_changes.search_code = /*search_code*/ ctx[5];
+    			if (dirty & /*search_code*/ 64) weather_changes.search_code = /*search_code*/ ctx[6];
     			weather.$set(weather_changes);
+    			const card2_changes = {};
 
-    			if (/*worlddata*/ ctx[6] != "") {
-    				if (if_block) {
-    					if_block.p(ctx, dirty);
-
-    					if (dirty & /*worlddata*/ 64) {
-    						transition_in(if_block, 1);
-    					}
-    				} else {
-    					if_block = create_if_block_3(ctx);
-    					if_block.c();
-    					transition_in(if_block, 1);
-    					if_block.m(t7.parentNode, t7);
-    				}
-    			} else if (if_block) {
-    				group_outros();
-
-    				transition_out(if_block, 1, 1, () => {
-    					if_block = null;
-    				});
-
-    				check_outros();
+    			if (dirty & /*$$scope, pollu_dets*/ 4194312) {
+    				card2_changes.$$scope = { dirty, ctx };
     			}
 
-    			if (!current || dirty & /*search*/ 16) set_data_dev(t9, /*search*/ ctx[4]);
+    			card2.$set(card2_changes);
+    			const card3_changes = {};
 
-    			if (!current || dirty & /*link*/ 8) {
-    				attr_dev(a, "href", /*link*/ ctx[3]);
+    			if (dirty & /*$$scope, worlddata, locationdata*/ 4194434) {
+    				card3_changes.$$scope = { dirty, ctx };
+    			}
+
+    			card3.$set(card3_changes);
+    			const card4_changes = {};
+
+    			if (dirty & /*$$scope, worlddata*/ 4194432) {
+    				card4_changes.$$scope = { dirty, ctx };
+    			}
+
+    			card4.$set(card4_changes);
+    			if (!current || dirty & /*search*/ 32) set_data_dev(t11, /*search*/ ctx[5]);
+
+    			if (!current || dirty & /*link*/ 16) {
+    				attr_dev(a, "href", /*link*/ ctx[4]);
     			}
     		},
     		i: function intro(local) {
@@ -3017,14 +3427,18 @@ var app = (function () {
     			transition_in(card0.$$.fragment, local);
     			transition_in(card1.$$.fragment, local);
     			transition_in(weather.$$.fragment, local);
-    			transition_in(if_block);
+    			transition_in(card2.$$.fragment, local);
+    			transition_in(card3.$$.fragment, local);
+    			transition_in(card4.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(card0.$$.fragment, local);
     			transition_out(card1.$$.fragment, local);
     			transition_out(weather.$$.fragment, local);
-    			transition_out(if_block);
+    			transition_out(card2.$$.fragment, local);
+    			transition_out(card3.$$.fragment, local);
+    			transition_out(card4.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -3035,9 +3449,14 @@ var app = (function () {
     			destroy_component(card1);
     			destroy_component(weather);
     			if (detaching) detach_dev(t6);
-    			if (if_block) if_block.d(detaching);
-    			if (detaching) detach_dev(t7);
-    			if (detaching) detach_dev(div6);
+    			if (detaching) detach_dev(div8);
+    			destroy_component(card2);
+    			destroy_component(card3);
+    			if (detaching) detach_dev(t8);
+    			if (detaching) detach_dev(div10);
+    			destroy_component(card4);
+    			if (detaching) detach_dev(t9);
+    			if (detaching) detach_dev(div11);
     		}
     	};
 
@@ -3045,14 +3464,14 @@ var app = (function () {
     		block,
     		id: create_else_block$3.name,
     		type: "else",
-    		source: "(106:2) {:else}",
+    		source: "(138:2) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (101:2) {#if search_code==''}
+    // (133:2) {#if search_code==''}
     function create_if_block_2(ctx) {
     	let h6;
     	let t0;
@@ -3062,8 +3481,8 @@ var app = (function () {
     		c: function create() {
     			h6 = element("h6");
     			t0 = text("Seems like there's no city named ");
-    			t1 = text(/*search*/ ctx[4]);
-    			add_location(h6, file$a, 101, 6, 2275);
+    			t1 = text(/*search*/ ctx[5]);
+    			add_location(h6, file$b, 133, 6, 3257);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h6, anchor);
@@ -3071,7 +3490,7 @@ var app = (function () {
     			append_dev(h6, t1);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*search*/ 16) set_data_dev(t1, /*search*/ ctx[4]);
+    			if (dirty & /*search*/ 32) set_data_dev(t1, /*search*/ ctx[5]);
     		},
     		i: noop,
     		o: noop,
@@ -3084,15 +3503,15 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(101:2) {#if search_code==''}",
+    		source: "(133:2) {#if search_code==''}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (115:6) <Card cardtitle="Time and Date">
-    function create_default_slot_3(ctx) {
+    // (147:7) <Card cardtitle="Time and Date">
+    function create_default_slot_4(ctx) {
     	let current;
 
     	const time = new Time({
@@ -3129,23 +3548,23 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_3.name,
+    		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(115:6) <Card cardtitle=\\\"Time and Date\\\">",
+    		source: "(147:7) <Card cardtitle=\\\"Time and Date\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (120:6) <Card cardtitle="Location">
-    function create_default_slot_2(ctx) {
+    // (152:7) <Card cardtitle="Location">
+    function create_default_slot_3(ctx) {
     	let current;
 
     	const location = new Location({
     			props: {
     				data: /*locationdata*/ ctx[1],
-    				flag: /*flag*/ ctx[7]
+    				flag: /*flag*/ ctx[8]
     			},
     			$$inline: true
     		});
@@ -3161,7 +3580,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const location_changes = {};
     			if (dirty & /*locationdata*/ 2) location_changes.data = /*locationdata*/ ctx[1];
-    			if (dirty & /*flag*/ 128) location_changes.flag = /*flag*/ ctx[7];
+    			if (dirty & /*flag*/ 256) location_changes.flag = /*flag*/ ctx[8];
     			location.$set(location_changes);
     		},
     		i: function intro(local) {
@@ -3180,164 +3599,233 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
+    		id: create_default_slot_3.name,
+    		type: "slot",
+    		source: "(152:7) <Card cardtitle=\\\"Location\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (175:5) {:else}
+    function create_else_block_3(ctx) {
+    	let current;
+
+    	const loader = new Loader({
+    			props: { color: "brown" },
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(loader.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(loader, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(loader.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(loader.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(loader, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_3.name,
+    		type: "else",
+    		source: "(175:5) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (173:4) {#if pollu_dets!=''}
+    function create_if_block_5(ctx) {
+    	let current;
+
+    	const pollution = new Pollution({
+    			props: { pollu_dets: /*pollu_dets*/ ctx[3] },
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(pollution.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(pollution, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const pollution_changes = {};
+    			if (dirty & /*pollu_dets*/ 8) pollution_changes.pollu_dets = /*pollu_dets*/ ctx[3];
+    			pollution.$set(pollution_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(pollution.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(pollution.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(pollution, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_5.name,
+    		type: "if",
+    		source: "(173:4) {#if pollu_dets!=''}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (172:4) <Card cardtitle="pollution">
+    function create_default_slot_2(ctx) {
+    	let current_block_type_index;
+    	let if_block;
+    	let if_block_anchor;
+    	let current;
+    	const if_block_creators = [create_if_block_5, create_else_block_3];
+    	const if_blocks = [];
+
+    	function select_block_type_3(ctx, dirty) {
+    		if (/*pollu_dets*/ ctx[3] != "") return 0;
+    		return 1;
+    	}
+
+    	current_block_type_index = select_block_type_3(ctx);
+    	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_blocks[current_block_type_index].m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			let previous_block_index = current_block_type_index;
+    			current_block_type_index = select_block_type_3(ctx);
+
+    			if (current_block_type_index === previous_block_index) {
+    				if_blocks[current_block_type_index].p(ctx, dirty);
+    			} else {
+    				group_outros();
+
+    				transition_out(if_blocks[previous_block_index], 1, 1, () => {
+    					if_blocks[previous_block_index] = null;
+    				});
+
+    				check_outros();
+    				if_block = if_blocks[current_block_type_index];
+
+    				if (!if_block) {
+    					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+    					if_block.c();
+    				}
+
+    				transition_in(if_block, 1);
+    				if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    			}
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(if_block);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(if_block);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if_blocks[current_block_type_index].d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(120:6) <Card cardtitle=\\\"Location\\\">",
+    		source: "(172:4) <Card cardtitle=\\\"pollution\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (132:3) {#if worlddata!=''}
-    function create_if_block_3(ctx) {
-    	let div2;
-    	let div0;
-    	let t;
-    	let div1;
+    // (185:5) {:else}
+    function create_else_block_2(ctx) {
     	let current;
 
-    	const card0 = new Card({
-    			props: {
-    				cardtitle: "Currency",
-    				$$slots: { default: [create_default_slot_1] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const card1 = new Card({
-    			props: {
-    				cardtitle: "Languages",
-    				$$slots: { default: [create_default_slot] },
-    				$$scope: { ctx }
-    			},
+    	const loader = new Loader({
+    			props: { color: "brown" },
     			$$inline: true
     		});
 
     	const block = {
     		c: function create() {
-    			div2 = element("div");
-    			div0 = element("div");
-    			create_component(card0.$$.fragment);
-    			t = space();
-    			div1 = element("div");
-    			create_component(card1.$$.fragment);
-    			attr_dev(div0, "class", "col l4 s12 offset-l1");
-    			add_location(div0, file$a, 133, 4, 2948);
-    			attr_dev(div1, "class", "col l4 s12 offset-l2");
-    			add_location(div1, file$a, 139, 4, 3072);
-    			attr_dev(div2, "class", "row");
-    			add_location(div2, file$a, 132, 4, 2926);
+    			create_component(loader.$$.fragment);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div2, anchor);
-    			append_dev(div2, div0);
-    			mount_component(card0, div0, null);
-    			append_dev(div2, t);
-    			append_dev(div2, div1);
-    			mount_component(card1, div1, null);
+    			mount_component(loader, target, anchor);
     			current = true;
     		},
-    		p: function update(ctx, dirty) {
-    			const card0_changes = {};
-
-    			if (dirty & /*$$scope, worlddata*/ 4160) {
-    				card0_changes.$$scope = { dirty, ctx };
-    			}
-
-    			card0.$set(card0_changes);
-    			const card1_changes = {};
-
-    			if (dirty & /*$$scope, worlddata, locationdata*/ 4162) {
-    				card1_changes.$$scope = { dirty, ctx };
-    			}
-
-    			card1.$set(card1_changes);
-    		},
+    		p: noop,
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(card0.$$.fragment, local);
-    			transition_in(card1.$$.fragment, local);
+    			transition_in(loader.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(card0.$$.fragment, local);
-    			transition_out(card1.$$.fragment, local);
+    			transition_out(loader.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div2);
-    			destroy_component(card0);
-    			destroy_component(card1);
+    			destroy_component(loader, detaching);
     		}
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_3.name,
-    		type: "if",
-    		source: "(132:3) {#if worlddata!=''}",
+    		id: create_else_block_2.name,
+    		type: "else",
+    		source: "(185:5) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (135:4) <Card cardtitle="Currency">
-    function create_default_slot_1(ctx) {
-    	let current;
-
-    	const currency = new Currency({
-    			props: { worlddata: /*worlddata*/ ctx[6] },
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(currency.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(currency, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const currency_changes = {};
-    			if (dirty & /*worlddata*/ 64) currency_changes.worlddata = /*worlddata*/ ctx[6];
-    			currency.$set(currency_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(currency.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(currency.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(currency, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_1.name,
-    		type: "slot",
-    		source: "(135:4) <Card cardtitle=\\\"Currency\\\">",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (141:4) <Card cardtitle="Languages">
-    function create_default_slot(ctx) {
+    // (183:4) {#if worlddata!=''}
+    function create_if_block_4(ctx) {
     	let current;
 
     	const language = new Language({
     			props: {
-    				worlddata: /*worlddata*/ ctx[6],
+    				worlddata: /*worlddata*/ ctx[7],
     				locationdata: /*locationdata*/ ctx[1]
     			},
     			$$inline: true
@@ -3353,7 +3841,7 @@ var app = (function () {
     		},
     		p: function update(ctx, dirty) {
     			const language_changes = {};
-    			if (dirty & /*worlddata*/ 64) language_changes.worlddata = /*worlddata*/ ctx[6];
+    			if (dirty & /*worlddata*/ 128) language_changes.worlddata = /*worlddata*/ ctx[7];
     			if (dirty & /*locationdata*/ 2) language_changes.locationdata = /*locationdata*/ ctx[1];
     			language.$set(language_changes);
     		},
@@ -3373,26 +3861,274 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot.name,
-    		type: "slot",
-    		source: "(141:4) <Card cardtitle=\\\"Languages\\\">",
+    		id: create_if_block_4.name,
+    		type: "if",
+    		source: "(183:4) {#if worlddata!=''}",
     		ctx
     	});
 
     	return block;
     }
 
-    function create_fragment$a(ctx) {
+    // (182:4) <Card cardtitle="Languages">
+    function create_default_slot_1(ctx) {
+    	let current_block_type_index;
+    	let if_block;
+    	let if_block_anchor;
+    	let current;
+    	const if_block_creators = [create_if_block_4, create_else_block_2];
+    	const if_blocks = [];
+
+    	function select_block_type_4(ctx, dirty) {
+    		if (/*worlddata*/ ctx[7] != "") return 0;
+    		return 1;
+    	}
+
+    	current_block_type_index = select_block_type_4(ctx);
+    	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_blocks[current_block_type_index].m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			let previous_block_index = current_block_type_index;
+    			current_block_type_index = select_block_type_4(ctx);
+
+    			if (current_block_type_index === previous_block_index) {
+    				if_blocks[current_block_type_index].p(ctx, dirty);
+    			} else {
+    				group_outros();
+
+    				transition_out(if_blocks[previous_block_index], 1, 1, () => {
+    					if_blocks[previous_block_index] = null;
+    				});
+
+    				check_outros();
+    				if_block = if_blocks[current_block_type_index];
+
+    				if (!if_block) {
+    					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+    					if_block.c();
+    				}
+
+    				transition_in(if_block, 1);
+    				if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    			}
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(if_block);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(if_block);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if_blocks[current_block_type_index].d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_1.name,
+    		type: "slot",
+    		source: "(182:4) <Card cardtitle=\\\"Languages\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (198:5) {:else}
+    function create_else_block_1$1(ctx) {
+    	let current;
+
+    	const loader = new Loader({
+    			props: { color: "brown" },
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(loader.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(loader, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(loader.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(loader.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(loader, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_1$1.name,
+    		type: "else",
+    		source: "(198:5) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (196:4) {#if worlddata!=''}
+    function create_if_block_3(ctx) {
+    	let current;
+
+    	const currency = new Currency({
+    			props: { worlddata: /*worlddata*/ ctx[7] },
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(currency.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(currency, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const currency_changes = {};
+    			if (dirty & /*worlddata*/ 128) currency_changes.worlddata = /*worlddata*/ ctx[7];
+    			currency.$set(currency_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(currency.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(currency.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(currency, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_3.name,
+    		type: "if",
+    		source: "(196:4) {#if worlddata!=''}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (195:4) <Card cardtitle="Currency">
+    function create_default_slot(ctx) {
+    	let current_block_type_index;
+    	let if_block;
+    	let if_block_anchor;
+    	let current;
+    	const if_block_creators = [create_if_block_3, create_else_block_1$1];
+    	const if_blocks = [];
+
+    	function select_block_type_5(ctx, dirty) {
+    		if (/*worlddata*/ ctx[7] != "") return 0;
+    		return 1;
+    	}
+
+    	current_block_type_index = select_block_type_5(ctx);
+    	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+
+    	const block = {
+    		c: function create() {
+    			if_block.c();
+    			if_block_anchor = empty();
+    		},
+    		m: function mount(target, anchor) {
+    			if_blocks[current_block_type_index].m(target, anchor);
+    			insert_dev(target, if_block_anchor, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			let previous_block_index = current_block_type_index;
+    			current_block_type_index = select_block_type_5(ctx);
+
+    			if (current_block_type_index === previous_block_index) {
+    				if_blocks[current_block_type_index].p(ctx, dirty);
+    			} else {
+    				group_outros();
+
+    				transition_out(if_blocks[previous_block_index], 1, 1, () => {
+    					if_blocks[previous_block_index] = null;
+    				});
+
+    				check_outros();
+    				if_block = if_blocks[current_block_type_index];
+
+    				if (!if_block) {
+    					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+    					if_block.c();
+    				}
+
+    				transition_in(if_block, 1);
+    				if_block.m(if_block_anchor.parentNode, if_block_anchor);
+    			}
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(if_block);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(if_block);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if_blocks[current_block_type_index].d(detaching);
+    			if (detaching) detach_dev(if_block_anchor);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot.name,
+    		type: "slot",
+    		source: "(195:4) <Card cardtitle=\\\"Currency\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    function create_fragment$b(ctx) {
     	let t0;
     	let main;
     	let t1;
     	let div;
+    	let current_block_type_index;
+    	let if_block;
     	let t2;
     	let current;
 
     	const header = new Header({
     			props: {
-    				$$slots: { default: [create_default_slot_5] },
+    				$$slots: { default: [create_default_slot_7] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -3403,8 +4139,17 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	search_1.$on("gotSearch", /*gotSearch*/ ctx[9]);
-    	let if_block = /*search*/ ctx[4] != "" && create_if_block$5(ctx);
+    	search_1.$on("gotSearch", /*gotSearch_handler*/ ctx[17]);
+    	const if_block_creators = [create_if_block$5, create_else_block_5];
+    	const if_blocks = [];
+
+    	function select_block_type(ctx, dirty) {
+    		if (/*search*/ ctx[5] != "") return 0;
+    		return 1;
+    	}
+
+    	current_block_type_index = select_block_type(ctx);
+    	if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
 
     	const footer = new Footer({
     			props: { source: "./img/city.svg" },
@@ -3419,13 +4164,13 @@ var app = (function () {
     			create_component(search_1.$$.fragment);
     			t1 = space();
     			div = element("div");
-    			if (if_block) if_block.c();
+    			if_block.c();
     			t2 = space();
     			create_component(footer.$$.fragment);
-    			attr_dev(div, "class", "tot_wrapper svelte-1184irg");
-    			add_location(div, file$a, 97, 0, 2183);
-    			attr_dev(main, "class", "svelte-1184irg");
-    			add_location(main, file$a, 93, 0, 2106);
+    			attr_dev(div, "class", "tot_wrapper svelte-1hc8soy");
+    			add_location(div, file$b, 129, 0, 3165);
+    			attr_dev(main, "class", "svelte-1hc8soy");
+    			add_location(main, file$b, 125, 0, 3071);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3437,7 +4182,7 @@ var app = (function () {
     			mount_component(search_1, main, null);
     			append_dev(main, t1);
     			append_dev(main, div);
-    			if (if_block) if_block.m(div, null);
+    			if_blocks[current_block_type_index].m(div, null);
     			insert_dev(target, t2, anchor);
     			mount_component(footer, target, anchor);
     			current = true;
@@ -3445,40 +4190,40 @@ var app = (function () {
     		p: function update(ctx, [dirty]) {
     			const header_changes = {};
 
-    			if (dirty & /*$$scope*/ 4096) {
+    			if (dirty & /*$$scope*/ 4194304) {
     				header_changes.$$scope = { dirty, ctx };
     			}
 
     			header.$set(header_changes);
     			const search_1_changes = {};
 
-    			if (dirty & /*$$scope*/ 4096) {
+    			if (dirty & /*$$scope*/ 4194304) {
     				search_1_changes.$$scope = { dirty, ctx };
     			}
 
     			search_1.$set(search_1_changes);
+    			let previous_block_index = current_block_type_index;
+    			current_block_type_index = select_block_type(ctx);
 
-    			if (/*search*/ ctx[4] != "") {
-    				if (if_block) {
-    					if_block.p(ctx, dirty);
-
-    					if (dirty & /*search*/ 16) {
-    						transition_in(if_block, 1);
-    					}
-    				} else {
-    					if_block = create_if_block$5(ctx);
-    					if_block.c();
-    					transition_in(if_block, 1);
-    					if_block.m(div, null);
-    				}
-    			} else if (if_block) {
+    			if (current_block_type_index === previous_block_index) {
+    				if_blocks[current_block_type_index].p(ctx, dirty);
+    			} else {
     				group_outros();
 
-    				transition_out(if_block, 1, 1, () => {
-    					if_block = null;
+    				transition_out(if_blocks[previous_block_index], 1, 1, () => {
+    					if_blocks[previous_block_index] = null;
     				});
 
     				check_outros();
+    				if_block = if_blocks[current_block_type_index];
+
+    				if (!if_block) {
+    					if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+    					if_block.c();
+    				}
+
+    				transition_in(if_block, 1);
+    				if_block.m(div, null);
     			}
     		},
     		i: function intro(local) {
@@ -3501,7 +4246,7 @@ var app = (function () {
     			if (detaching) detach_dev(t0);
     			if (detaching) detach_dev(main);
     			destroy_component(search_1);
-    			if (if_block) if_block.d();
+    			if_blocks[current_block_type_index].d();
     			if (detaching) detach_dev(t2);
     			destroy_component(footer, detaching);
     		}
@@ -3509,7 +4254,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$a.name,
+    		id: create_fragment$b.name,
     		type: "component",
     		source: "",
     		ctx
@@ -3518,14 +4263,33 @@ var app = (function () {
     	return block;
     }
 
-    function instance$a($$self, $$props, $$invalidate) {
+    function instance$b($$self, $$props, $$invalidate) {
     	let show = false;
-    	let accu_key = "o8lkJuEjhlMXiH8EiHt8Z6F7AxQSJJ17";
+    	let accu_key = "ehVAnLtvn5dsU027Z2dyyrM63aG0SWBg";
     	let locationdata;
     	let timezone;
 
+    	let cities = [
+    		"mumbai",
+    		"paris",
+    		"guntur",
+    		"chennai",
+    		"cairo",
+    		"delhi",
+    		"ooty",
+    		"miami",
+    		"shanghai",
+    		"tokyo",
+    		"sydney",
+    		"auckland"
+    	];
+
+    	let country;
+    	let pollu_dets = "";
+    	let pollu_key = "b4f61ea6-b96d-4bce-8f61-fc3235b60f6f";
+
     	const worldapi = async () => {
-    		let country = locationdata["Country"]["EnglishName"];
+    		country = locationdata["Country"]["EnglishName"];
 
     		if (country == "United States") {
     			country = "United States of America";
@@ -3538,14 +4302,40 @@ var app = (function () {
     		}
 
     		const response = await fetch(`https://restcountries.eu/rest/v2/name/${country}?fullText=true`);
-    		$$invalidate(6, worlddata = await response.json());
+    		$$invalidate(7, worlddata = await response.json());
     		return worlddata[0];
     	};
 
-    	const gotSearch = e => {
-    		$$invalidate(6, worlddata = "");
-    		$$invalidate(7, flag = "");
-    		$$invalidate(4, search = e.detail);
+    	const air = async () => {
+    		let this_country = country;
+    		let this_state = locationdata["AdministrativeArea"]["EnglishName"];
+    		let this_city = search;
+
+    		if (this_country == "United States of America") {
+    			this_country = "USA";
+    		}
+
+    		if (this_state == "Ville de Paris") {
+    			this_state = "Ile-de-France";
+    		}
+
+    		if (this_city == "auckland") {
+    			this_city = "Auckland City Centre";
+    		}
+
+    		let query = `https://api.airvisual.com/v2/city?city=${this_city}&state=${this_state}&country=${this_country}&key=${pollu_key}`;
+
+    		//    console.log(query);
+    		const response = await fetch(query);
+
+    		let data = await response.json();
+    		return data["data"];
+    	};
+
+    	const gotSearch = detail => {
+    		$$invalidate(7, worlddata = "");
+    		$$invalidate(8, flag = "");
+    		$$invalidate(5, search = detail);
     		$$invalidate(0, show = false);
 
     		getaccudetails(search).then(data => {
@@ -3553,16 +4343,20 @@ var app = (function () {
     			$$invalidate(0, show = true);
 
     			if (data === undefined) {
-    				$$invalidate(5, search_code = "");
+    				$$invalidate(6, search_code = "");
     			} else {
-    				$$invalidate(5, search_code = data["Key"]);
+    				$$invalidate(6, search_code = data["Key"]);
     				$$invalidate(2, timezone = data["TimeZone"]["Name"]);
     			}
 
     			worldapi().then(data => {
-    				$$invalidate(7, flag = data["flag"]);
+    				$$invalidate(8, flag = data["flag"]);
+
+    				air().then(data => {
+    					$$invalidate(3, pollu_dets = data);
+    				});
     			}).catch(err => {
-    				console.log(err);
+    				console.log("app", err);
     			});
     		}).catch(err => {
     			$$invalidate(0, show = true);
@@ -3582,11 +4376,19 @@ var app = (function () {
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
-    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$1.warn(`<App> was created with unknown prop '${key}'`);
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$2.warn(`<App> was created with unknown prop '${key}'`);
     	});
 
     	let { $$slots = {}, $$scope } = $$props;
     	validate_slots("App", $$slots, []);
+
+    	const gotSearch_handler = e => {
+    		gotSearch(e.detail);
+    	};
+
+    	const click_handler = citi => {
+    		gotSearch(citi);
+    	};
 
     	$$self.$capture_state = () => ({
     		Header,
@@ -3599,11 +4401,17 @@ var app = (function () {
     		Location,
     		Currency,
     		Language,
+    		Pollution,
     		show,
     		accu_key,
     		locationdata,
     		timezone,
+    		cities,
+    		country,
+    		pollu_dets,
+    		pollu_key,
     		worldapi,
+    		air,
     		gotSearch,
     		getaccudetails,
     		link,
@@ -3615,14 +4423,18 @@ var app = (function () {
 
     	$$self.$inject_state = $$props => {
     		if ("show" in $$props) $$invalidate(0, show = $$props.show);
-    		if ("accu_key" in $$props) $$invalidate(8, accu_key = $$props.accu_key);
+    		if ("accu_key" in $$props) $$invalidate(9, accu_key = $$props.accu_key);
     		if ("locationdata" in $$props) $$invalidate(1, locationdata = $$props.locationdata);
     		if ("timezone" in $$props) $$invalidate(2, timezone = $$props.timezone);
-    		if ("link" in $$props) $$invalidate(3, link = $$props.link);
-    		if ("search" in $$props) $$invalidate(4, search = $$props.search);
-    		if ("search_code" in $$props) $$invalidate(5, search_code = $$props.search_code);
-    		if ("worlddata" in $$props) $$invalidate(6, worlddata = $$props.worlddata);
-    		if ("flag" in $$props) $$invalidate(7, flag = $$props.flag);
+    		if ("cities" in $$props) $$invalidate(10, cities = $$props.cities);
+    		if ("country" in $$props) country = $$props.country;
+    		if ("pollu_dets" in $$props) $$invalidate(3, pollu_dets = $$props.pollu_dets);
+    		if ("pollu_key" in $$props) pollu_key = $$props.pollu_key;
+    		if ("link" in $$props) $$invalidate(4, link = $$props.link);
+    		if ("search" in $$props) $$invalidate(5, search = $$props.search);
+    		if ("search_code" in $$props) $$invalidate(6, search_code = $$props.search_code);
+    		if ("worlddata" in $$props) $$invalidate(7, worlddata = $$props.worlddata);
+    		if ("flag" in $$props) $$invalidate(8, flag = $$props.flag);
     	};
 
     	let link;
@@ -3636,40 +4448,49 @@ var app = (function () {
     	}
 
     	$$self.$$.update = () => {
-    		if ($$self.$$.dirty & /*search*/ 16) {
-    			 $$invalidate(3, link = "https://en.wikipedia.org/wiki/" + search);
+    		if ($$self.$$.dirty & /*search*/ 32) {
+    			 $$invalidate(4, link = "https://en.wikipedia.org/wiki/" + search);
     		}
     	};
 
-    	 $$invalidate(4, search = "");
-    	 $$invalidate(5, search_code = "");
-    	 $$invalidate(6, worlddata = "");
-    	 $$invalidate(7, flag = "");
+    	 $$invalidate(5, search = "");
+    	 $$invalidate(6, search_code = "");
+    	 $$invalidate(7, worlddata = "");
+    	 $$invalidate(8, flag = "");
 
     	return [
     		show,
     		locationdata,
     		timezone,
+    		pollu_dets,
     		link,
     		search,
     		search_code,
     		worlddata,
     		flag,
     		accu_key,
-    		gotSearch
+    		cities,
+    		gotSearch,
+    		country,
+    		pollu_key,
+    		worldapi,
+    		air,
+    		getaccudetails,
+    		gotSearch_handler,
+    		click_handler
     	];
     }
 
     class App extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$a, create_fragment$a, safe_not_equal, {});
+    		init(this, options, instance$b, create_fragment$b, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "App",
     			options,
-    			id: create_fragment$a.name
+    			id: create_fragment$b.name
     		});
     	}
     }
