@@ -8,7 +8,10 @@ get the details like weather, time, languages spoken, currency, air quality inde
 This demo includes city selected from popular cities list, searching a city, wikipedia link for the city for further info and a message display if the typed city doesn't exist.
 <br />
 <br />
-![](screenshots/demo.gif)
+<kbd>
+  <img src="screenshots/demo.gif">
+</kbd>
+
 
 <br />
 <br />
