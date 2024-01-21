@@ -1,6 +1,7 @@
 # any-city-dets
 get the details like weather, time, languages spoken, currency, air quality index, state, country of any city you search all at one place.
 <br />
+app URL : https://any-city-dets.firebaseapp.com
 <br />
 <br />
 <br />
